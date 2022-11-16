@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui&display=swap');
+
+
+body{
+
+    background-color: #0305F5;
+}
+
+
+
+
+#phone{
+    background-color:#FFFFFF ;
+    width: 320px;
+    height:570px ;
+    margin-left:400px ;
+    margin-top:30px;
+    transform:translate(40%);
+    border-radius: 6%;
+
+
+}
+
+#left-arrow{
+    position:absolute;
+    width:14px;
+    margin-top:50px;
+    margin-left:20px;
+
+}
+
+h1{
+    position:absolute;
+    margin-top: 85px;
+    margin-left:30px;
+    font-size:27px;
+    color:#0B1032;
+    font-family: 'Heebo', sans-serif;
+
+
+}
+
+h2{
+    position:absolute;  
+    margin-top: 130px;
+    margin-left:30px;
+    font-size: 11px;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    color:#B0B4B9;
+}
+
+#details{
+    position:absolute;
+    width:287px;
+    height:390px; ;
+    margin-top:160px;
+    margin-left:20px;
+    background-color: #F9F9F9;
+    border-radius: 5%;
+}
+
+#amount{
+
+}
