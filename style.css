@@ -69,7 +69,7 @@ h2{
 
 } 
 
-#amount #amount-title {
+ #amount-title {
     position:absolute; 
     margin-top:0px;
     margin-left:15px;  
@@ -224,5 +224,79 @@ input[type='range'] {
     border:1px; 
     border-radius:2%;
 
+
+}
+
+#payment{
+  
+  width:99%;  
+  height:150px;  
+  margin-top:180px;
+  border:2px solid blue;
+
+} 
+
+#payment .payment{
+  margin-top:7px;
+}
+
+#payment-title{
+  margin-top:0px;
+  margin-left:15px;  
+  font-size: 15px;
+  font-family: 'Noto Sans Mende Kikakui', sans-serif;
+  font-weight: bold;
+
+}
+
+.payment{
+  width:82%;
+  height:47px;
+  margin-left:24px;
+  background-color:#FFFFFF;
+  border-radius:7%;
+  
+}
+
+.payment .method-name{
+  position:absolute;
+  margin-top:10px;
+  margin-left:45px;
+  font-size:11px;
+  font-family: 'Noto Sans Mende Kikakui', sans-serif;
+  font-weight: bold;
+
+
+}
+
+
+.payment  .method-number{
+  position:absolute; 
+  margin-top:25px;
+  margin-left:45px;
+  font-size:11px;
+  font-family: 'Noto Sans Mende Kikakui', sans-serif;
+  color:#B0B4B9;
+
+}
+
+.payment .method-amount{
+  position:absolute;
+  margin-top:3%;
+  margin-left:55%;
+  font-size:13px;
+  font-weight: bold;
+  font-family: 'Noto Sans Mende Kikakui', sans-serif;
+
+
+}
+
+.payment .method-exp{
+  position:absolute;
+  margin-top:26px;
+  margin-left:175px;
+  font-size:9px;
+  font-family: 'Noto Sans Mende Kikakui', sans-serif;
+  color:#B0B4B9;
 
 }
